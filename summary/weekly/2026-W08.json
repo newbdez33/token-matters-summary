@@ -1,0 +1,76 @@
+{
+  "week": "2026-W08",
+  "dateRange": {
+    "start": "2026-02-16",
+    "end": "2026-02-19"
+  },
+  "totals": {
+    "inputTokens": 42085,
+    "outputTokens": 312110,
+    "cacheCreationTokens": 6029087,
+    "cacheReadTokens": 173914575,
+    "totalTokens": 209790096,
+    "cost": {
+      "totalUSD": 575.719700535,
+      "byProvider": {
+        "claude-code": {
+          "amount": 370.89610068,
+          "currency": "USD"
+        },
+        "glm-coding": {
+          "amount": 1474.6119500000002,
+          "currency": "CNY"
+        }
+      }
+    },
+    "requests": 2803
+  },
+  "byProvider": [
+    {
+      "provider": "claude-code",
+      "dataQuality": "exact",
+      "inputTokens": 42085,
+      "outputTokens": 312110,
+      "cacheCreationTokens": 6029087,
+      "cacheReadTokens": 173914575,
+      "totalTokens": 180297857,
+      "cost": 370.89610068,
+      "currency": "USD",
+      "requests": 2236
+    },
+    {
+      "provider": "glm-coding",
+      "dataQuality": "partial",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 29492239,
+      "cost": 1474.6119500000002,
+      "currency": "CNY",
+      "requests": 567
+    }
+  ],
+  "dailyTrend": [
+    {
+      "date": "2026-02-16",
+      "totalTokens": 77620807,
+      "cost": 215.88894163000003
+    },
+    {
+      "date": "2026-02-17",
+      "totalTokens": 46978240,
+      "cost": 169.670356745
+    },
+    {
+      "date": "2026-02-18",
+      "totalTokens": 20762146,
+      "cost": 53.570962990000005
+    },
+    {
+      "date": "2026-02-19",
+      "totalTokens": 64428903,
+      "cost": 136.58943917000002
+    }
+  ]
+}

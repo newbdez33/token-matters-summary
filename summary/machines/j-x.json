@@ -1,0 +1,31 @@
+{
+  "machine": "j-x",
+  "dateRange": {
+    "start": "2026-02-20",
+    "end": "2026-02-20"
+  },
+  "totals": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheCreationTokens": 0,
+    "cacheReadTokens": 0,
+    "totalTokens": 8214391,
+    "cost": {
+      "totalUSD": 17.4924468,
+      "byProvider": {
+        "claude-code": {
+          "amount": 17.4924468,
+          "currency": "USD"
+        }
+      }
+    },
+    "requests": 196
+  },
+  "dailyTrend": [
+    {
+      "date": "2026-02-20",
+      "totalTokens": 8214391,
+      "cost": 17.4924468
+    }
+  ]
+}

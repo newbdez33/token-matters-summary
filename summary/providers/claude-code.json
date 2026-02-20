@@ -1,27 +1,62 @@
 {
   "provider": "claude-code",
   "dateRange": {
-    "start": "2026-02-13",
+    "start": "2026-02-01",
     "end": "2026-02-20"
   },
   "totals": {
-    "inputTokens": 69885,
-    "outputTokens": 603714,
-    "cacheCreationTokens": 12019719,
-    "cacheReadTokens": 364200655,
-    "totalTokens": 376893973,
+    "inputTokens": 161852,
+    "outputTokens": 1136828,
+    "cacheCreationTokens": 25229604,
+    "cacheReadTokens": 680639040,
+    "totalTokens": 707167324,
     "cost": {
-      "totalUSD": 759.26368548,
+      "totalUSD": 1261.7758489999999,
       "byProvider": {
         "claude-code": {
-          "amount": 759.26368548,
+          "amount": 1261.7758489999999,
           "currency": "USD"
         }
       }
     },
-    "requests": 4834
+    "requests": 8458
   },
   "dailyTrend": [
+    {
+      "date": "2026-02-01",
+      "totalTokens": 93482266,
+      "cost": 0.65377224
+    },
+    {
+      "date": "2026-02-03",
+      "totalTokens": 480767,
+      "cost": 0
+    },
+    {
+      "date": "2026-02-07",
+      "totalTokens": 467253,
+      "cost": 3.674496
+    },
+    {
+      "date": "2026-02-08",
+      "totalTokens": 27303943,
+      "cost": 66.38358104000001
+    },
+    {
+      "date": "2026-02-09",
+      "totalTokens": 25647869,
+      "cost": 55.34555826
+    },
+    {
+      "date": "2026-02-10",
+      "totalTokens": 8350353,
+      "cost": 17.3687156
+    },
+    {
+      "date": "2026-02-11",
+      "totalTokens": 95670952,
+      "cost": 203.93250583999998
+    },
     {
       "date": "2026-02-13",
       "totalTokens": 117944460,
@@ -29,23 +64,23 @@
     },
     {
       "date": "2026-02-14",
-      "totalTokens": 1123165,
-      "cost": 2.14860626
+      "totalTokens": 1261126,
+      "cost": 2.76916567
     },
     {
       "date": "2026-02-15",
-      "totalTokens": 27741705,
-      "cost": 56.38300826
+      "totalTokens": 46009877,
+      "cost": 95.87936694999999
     },
     {
       "date": "2026-02-16",
-      "totalTokens": 64820697,
-      "cost": 126.99217768000001
+      "totalTokens": 124443154,
+      "cost": 238.23142787
     },
     {
       "date": "2026-02-17",
-      "totalTokens": 31252457,
-      "cost": 60.45479381
+      "totalTokens": 32093815,
+      "cost": 64.25216006
     },
     {
       "date": "2026-02-18",

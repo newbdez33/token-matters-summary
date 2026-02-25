@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-02-25T12:18:57.512Z",
+  "lastUpdated": "2026-02-25T18:27:39.225Z",
   "last7Days": {
     "dateRange": {
-      "start": "2026-02-19",
-      "end": "2026-02-25"
+      "start": "2026-02-20",
+      "end": "2026-02-26"
     },
     "totals": {
-      "inputTokens": 99163,
-      "outputTokens": 844737,
-      "cacheCreationTokens": 8883307,
-      "cacheReadTokens": 271640807,
-      "totalTokens": 293717399,
+      "inputTokens": 85425,
+      "outputTokens": 553654,
+      "cacheCreationTokens": 5916129,
+      "cacheReadTokens": 168911508,
+      "totalTokens": 187716101,
       "cost": {
-        "totalUSD": 673.9037712549999,
+        "totalUSD": 456.22058648499996,
         "byProvider": {
           "claude-code": {
-            "amount": 588.83179243,
+            "amount": 371.14860766,
             "currency": "USD"
           },
           "glm-coding": {
@@ -28,21 +28,21 @@
           }
         }
       },
-      "requests": 3988
+      "requests": 2743
     },
     "byProvider": [
       {
         "provider": "claude-code",
         "dataQuality": "exact",
-        "inputTokens": 76849,
-        "outputTokens": 842824,
-        "cacheCreationTokens": 8883307,
-        "cacheReadTokens": 271640807,
-        "totalTokens": 281443787,
-        "cost": 588.83179243,
-        "costUSD": 588.83179243,
+        "inputTokens": 63111,
+        "outputTokens": 551741,
+        "cacheCreationTokens": 5916129,
+        "cacheReadTokens": 168911508,
+        "totalTokens": 175442489,
+        "cost": 371.14860766,
+        "costUSD": 371.14860766,
         "currency": "USD",
-        "requests": 3823
+        "requests": 2578
       },
       {
         "provider": "glm-coding",
@@ -74,8 +74,8 @@
     "byMachine": [
       {
         "machine": "j-studio",
-        "totalTokens": 215143219,
-        "requests": 2829
+        "totalTokens": 109141921,
+        "requests": 1584
       },
       {
         "machine": "j-x",
@@ -89,11 +89,6 @@
       }
     ],
     "dailyTrend": [
-      {
-        "date": "2026-02-19",
-        "totalTokens": 106001298,
-        "cost": 217.68318477
-      },
       {
         "date": "2026-02-20",
         "totalTokens": 49590488,
@@ -123,8 +118,8 @@
   },
   "last30Days": {
     "dateRange": {
-      "start": "2026-01-27",
-      "end": "2026-02-25"
+      "start": "2026-01-28",
+      "end": "2026-02-26"
     },
     "totals": {
       "inputTokens": 1061446,

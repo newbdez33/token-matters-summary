@@ -2,45 +2,62 @@
   "week": "2026-W09",
   "dateRange": {
     "start": "2026-02-24",
-    "end": "2026-02-24"
+    "end": "2026-02-25"
   },
   "totals": {
-    "inputTokens": 17643,
-    "outputTokens": 140530,
-    "cacheCreationTokens": 1187800,
-    "cacheReadTokens": 33283340,
-    "totalTokens": 34629313,
+    "inputTokens": 27117,
+    "outputTokens": 198870,
+    "cacheCreationTokens": 1982861,
+    "cacheReadTokens": 42234848,
+    "totalTokens": 44443696,
     "cost": {
-      "totalUSD": 75.4656309,
+      "totalUSD": 100.59984700999999,
       "byProvider": {
         "claude-code": {
-          "amount": 75.4656309,
+          "amount": 100.59984700999999,
+          "currency": "USD"
+        },
+        "trae-pro": {
+          "amount": 0,
           "currency": "USD"
         }
       }
     },
-    "requests": 570
+    "requests": 762
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 17643,
-      "outputTokens": 140530,
-      "cacheCreationTokens": 1187800,
-      "cacheReadTokens": 33283340,
-      "totalTokens": 34629313,
-      "cost": 75.4656309,
-      "costUSD": 75.4656309,
+      "inputTokens": 20665,
+      "outputTokens": 198287,
+      "cacheCreationTokens": 1982861,
+      "cacheReadTokens": 42234848,
+      "totalTokens": 44436661,
+      "cost": 100.59984700999999,
+      "costUSD": 100.59984700999999,
       "currency": "USD",
-      "requests": 570
+      "requests": 757
+    },
+    {
+      "provider": "trae-pro",
+      "dataQuality": "estimated",
+      "inputTokens": 6452,
+      "outputTokens": 583,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 7035,
+      "cost": 0,
+      "costUSD": 0,
+      "currency": "USD",
+      "requests": 5
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 34629313,
-      "requests": 570
+      "totalTokens": 44443696,
+      "requests": 762
     }
   ],
   "dailyTrend": [
@@ -48,6 +65,11 @@
       "date": "2026-02-24",
       "totalTokens": 34629313,
       "cost": 75.4656309
+    },
+    {
+      "date": "2026-02-25",
+      "totalTokens": 9814383,
+      "cost": 25.13421611
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "week": "2026-W10",
+  "dateRange": {
+    "start": "2026-03-02",
+    "end": "2026-03-02"
+  },
+  "totals": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheCreationTokens": 0,
+    "cacheReadTokens": 0,
+    "totalTokens": 48335,
+    "cost": {
+      "totalUSD": 0.33568657500000004,
+      "byProvider": {
+        "glm-coding": {
+          "amount": 2.4167500000000004,
+          "currency": "CNY"
+        }
+      }
+    },
+    "requests": 3
+  },
+  "byProvider": [
+    {
+      "provider": "glm-coding",
+      "dataQuality": "partial",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 48335,
+      "cost": 2.4167500000000004,
+      "costUSD": 0.33568657500000004,
+      "currency": "CNY",
+      "requests": 3
+    }
+  ],
+  "byMachine": [
+    {
+      "machine": "j-studio",
+      "totalTokens": 48335,
+      "requests": 3
+    }
+  ],
+  "dailyTrend": [
+    {
+      "date": "2026-03-02",
+      "totalTokens": 48335,
+      "cost": 0.33568657500000004
+    }
+  ]
+}

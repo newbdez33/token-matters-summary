@@ -5,11 +5,11 @@
     "end": "2026-03-02"
   },
   "totals": {
-    "inputTokens": 13387,
-    "outputTokens": 49444,
+    "inputTokens": 13627,
+    "outputTokens": 50082,
     "cacheCreationTokens": 1042334,
     "cacheReadTokens": 42557213,
-    "totalTokens": 44186281,
+    "totalTokens": 44187159,
     "cost": {
       "totalUSD": 89.646674435,
       "byProvider": {
@@ -27,7 +27,7 @@
         }
       }
     },
-    "requests": 583
+    "requests": 584
   },
   "byProvider": [
     {
@@ -59,15 +59,15 @@
     {
       "provider": "trae-pro",
       "dataQuality": "estimated",
-      "inputTokens": 2916,
-      "outputTokens": 311,
+      "inputTokens": 3156,
+      "outputTokens": 949,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 0,
-      "totalTokens": 3227,
+      "totalTokens": 4105,
       "cost": 0,
       "costUSD": 0,
       "currency": "USD",
-      "requests": 1
+      "requests": 2
     }
   ],
   "byMachine": [
@@ -83,8 +83,8 @@
     },
     {
       "machine": "gc172",
-      "totalTokens": 3227,
-      "requests": 1
+      "totalTokens": 4105,
+      "requests": 2
     }
   ],
   "dailyTrend": [
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-03-02",
-      "totalTokens": 21564142,
+      "totalTokens": 21565020,
       "cost": 39.292966155
     }
   ]

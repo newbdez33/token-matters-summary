@@ -9,9 +9,9 @@
     "outputTokens": 239680,
     "cacheCreationTokens": 1143660,
     "cacheReadTokens": 71278970,
-    "totalTokens": 73240379,
+    "totalTokens": 73298093,
     "cost": {
-      "totalUSD": 150.27465002999998,
+      "totalUSD": 150.67547376,
       "byProvider": {
         "trae-pro": {
           "amount": 0,
@@ -22,12 +22,12 @@
           "currency": "USD"
         },
         "glm-coding": {
-          "amount": 28.6527,
+          "amount": 31.538400000000003,
           "currency": "CNY"
         }
       }
     },
-    "requests": 777
+    "requests": 780
   },
   "byProvider": [
     {
@@ -63,11 +63,11 @@
       "outputTokens": 0,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 0,
-      "totalTokens": 573054,
-      "cost": 28.6527,
-      "costUSD": 3.9798600299999998,
+      "totalTokens": 630768,
+      "cost": 31.538400000000003,
+      "costUSD": 4.38068376,
       "currency": "CNY",
-      "requests": 34
+      "requests": 37
     }
   ],
   "byMachine": [
@@ -78,15 +78,15 @@
     },
     {
       "machine": "j-studio",
-      "totalTokens": 73236274,
-      "requests": 775
+      "totalTokens": 73293988,
+      "requests": 778
     }
   ],
   "dailyTrend": [
     {
       "date": "2026-03-02",
-      "totalTokens": 73240379,
-      "cost": 150.27465002999998
+      "totalTokens": 73298093,
+      "cost": 150.67547376
     }
   ]
 }

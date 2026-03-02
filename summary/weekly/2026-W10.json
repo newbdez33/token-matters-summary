@@ -5,25 +5,29 @@
     "end": "2026-03-02"
   },
   "totals": {
-    "inputTokens": 2916,
-    "outputTokens": 311,
-    "cacheCreationTokens": 0,
-    "cacheReadTokens": 0,
-    "totalTokens": 411508,
+    "inputTokens": 3111,
+    "outputTokens": 22952,
+    "cacheCreationTokens": 160638,
+    "cacheReadTokens": 20915762,
+    "totalTokens": 21564142,
     "cost": {
-      "totalUSD": 2.835511545,
+      "totalUSD": 39.292966155,
       "byProvider": {
         "trae-pro": {
           "amount": 0,
           "currency": "USD"
         },
+        "claude-code": {
+          "amount": 36.086605500000005,
+          "currency": "USD"
+        },
         "glm-coding": {
-          "amount": 20.414050000000003,
+          "amount": 23.08395,
           "currency": "CNY"
         }
       }
     },
-    "requests": 26
+    "requests": 200
   },
   "byProvider": [
     {
@@ -40,17 +44,30 @@
       "requests": 1
     },
     {
+      "provider": "claude-code",
+      "dataQuality": "exact",
+      "inputTokens": 195,
+      "outputTokens": 22641,
+      "cacheCreationTokens": 160638,
+      "cacheReadTokens": 20915762,
+      "totalTokens": 21099236,
+      "cost": 36.086605500000005,
+      "costUSD": 36.086605500000005,
+      "currency": "USD",
+      "requests": 171
+    },
+    {
       "provider": "glm-coding",
       "dataQuality": "partial",
       "inputTokens": 0,
       "outputTokens": 0,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 0,
-      "totalTokens": 408281,
-      "cost": 20.414050000000003,
-      "costUSD": 2.835511545,
+      "totalTokens": 461679,
+      "cost": 23.08395,
+      "costUSD": 3.206360655,
       "currency": "CNY",
-      "requests": 25
+      "requests": 28
     }
   ],
   "byMachine": [
@@ -61,15 +78,15 @@
     },
     {
       "machine": "j-studio",
-      "totalTokens": 408281,
-      "requests": 25
+      "totalTokens": 21560915,
+      "requests": 199
     }
   ],
   "dailyTrend": [
     {
       "date": "2026-03-02",
-      "totalTokens": 411508,
-      "cost": 2.835511545
+      "totalTokens": 21564142,
+      "cost": 39.292966155
     }
   ]
 }

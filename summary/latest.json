@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-03-02T09:30:32.349Z",
+  "lastUpdated": "2026-03-02T10:30:31.901Z",
   "last7Days": {
     "dateRange": {
       "start": "2026-02-24",
       "end": "2026-03-02"
     },
     "totals": {
-      "inputTokens": 61317,
-      "outputTokens": 738154,
-      "cacheCreationTokens": 6494559,
-      "cacheReadTokens": 210598042,
-      "totalTokens": 218470912,
+      "inputTokens": 61401,
+      "outputTokens": 752260,
+      "cacheCreationTokens": 6521061,
+      "cacheReadTokens": 216067174,
+      "totalTokens": 224037174,
       "cost": {
-        "totalUSD": 424.94928089999996,
+        "totalUSD": 435.10106331,
         "byProvider": {
           "claude-code": {
-            "amount": 420.92923709999997,
+            "amount": 430.68905759999996,
             "currency": "USD"
           },
           "trae-pro": {
@@ -23,26 +23,26 @@
             "currency": "USD"
           },
           "glm-coding": {
-            "amount": 28.942,
+            "amount": 31.7639,
             "currency": "CNY"
           }
         }
       },
-      "requests": 2890
+      "requests": 2937
     },
     "byProvider": [
       {
         "provider": "claude-code",
         "dataQuality": "exact",
-        "inputTokens": 35847,
-        "outputTokens": 735292,
-        "cacheCreationTokens": 6494559,
-        "cacheReadTokens": 210598042,
-        "totalTokens": 217863740,
-        "cost": 420.92923709999997,
-        "costUSD": 420.92923709999997,
+        "inputTokens": 35931,
+        "outputTokens": 749398,
+        "cacheCreationTokens": 6521061,
+        "cacheReadTokens": 216067174,
+        "totalTokens": 223373564,
+        "cost": 430.68905759999996,
+        "costUSD": 430.68905759999996,
         "currency": "USD",
-        "requests": 2830
+        "requests": 2874
       },
       {
         "provider": "trae-pro",
@@ -64,18 +64,18 @@
         "outputTokens": 0,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 578840,
-        "cost": 28.942,
-        "costUSD": 4.0200438,
+        "totalTokens": 635278,
+        "cost": 31.7639,
+        "costUSD": 4.41200571,
         "currency": "CNY",
-        "requests": 35
+        "requests": 38
       }
     ],
     "byMachine": [
       {
         "machine": "j-studio",
-        "totalTokens": 194952359,
-        "requests": 2460
+        "totalTokens": 200518621,
+        "requests": 2507
       },
       {
         "machine": "gc172",
@@ -116,8 +116,8 @@
       },
       {
         "date": "2026-03-02",
-        "totalTokens": 67674117,
-        "cost": 140.12286762
+        "totalTokens": 73240379,
+        "cost": 150.27465002999998
       }
     ]
   },
@@ -127,16 +127,16 @@
       "end": "2026-03-02"
     },
     "totals": {
-      "inputTokens": 1079045,
-      "outputTokens": 2229660,
-      "cacheCreationTokens": 35153711,
-      "cacheReadTokens": 1009974405,
-      "totalTokens": 1213444084,
+      "inputTokens": 1079129,
+      "outputTokens": 2243766,
+      "cacheCreationTokens": 35180213,
+      "cacheReadTokens": 1015443537,
+      "totalTokens": 1219010346,
       "cost": {
-        "totalUSD": 3077.3317073450003,
+        "totalUSD": 3087.4834897550004,
         "byProvider": {
           "claude-code": {
-            "amount": 1931.3562658099997,
+            "amount": 1941.1160863099997,
             "currency": "USD"
           },
           "trae-pro": {
@@ -144,7 +144,7 @@
             "currency": "USD"
           },
           "glm-coding": {
-            "amount": 8250.36315,
+            "amount": 8253.18505,
             "currency": "CNY"
           },
           "opencode": {
@@ -153,21 +153,21 @@
           }
         }
       },
-      "requests": 15548
+      "requests": 15595
     },
     "byProvider": [
       {
         "provider": "claude-code",
         "dataQuality": "exact",
-        "inputTokens": 223463,
-        "outputTokens": 2199171,
-        "cacheCreationTokens": 35153711,
-        "cacheReadTokens": 1007839813,
-        "totalTokens": 1045416158,
-        "cost": 1931.3562658099997,
-        "costUSD": 1931.3562658099997,
+        "inputTokens": 223547,
+        "outputTokens": 2213277,
+        "cacheCreationTokens": 35180213,
+        "cacheReadTokens": 1013308945,
+        "totalTokens": 1050925982,
+        "cost": 1941.1160863099997,
+        "costUSD": 1941.1160863099997,
         "currency": "USD",
-        "requests": 12840
+        "requests": 12884
       },
       {
         "provider": "trae-pro",
@@ -189,11 +189,11 @@
         "outputTokens": 0,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 165007263,
-        "cost": 8250.36315,
-        "costUSD": 1145.9754415350003,
+        "totalTokens": 165063701,
+        "cost": 8253.18505,
+        "costUSD": 1146.3674034450003,
         "currency": "CNY",
-        "requests": 2533
+        "requests": 2536
       },
       {
         "provider": "opencode",
@@ -217,8 +217,8 @@
       },
       {
         "machine": "j-studio",
-        "totalTokens": 779946786,
-        "requests": 10339
+        "totalTokens": 785513048,
+        "requests": 10386
       },
       {
         "machine": "gc172",
@@ -339,37 +339,37 @@
       },
       {
         "date": "2026-03-02",
-        "totalTokens": 67674117,
-        "cost": 140.12286762
+        "totalTokens": 73240379,
+        "cost": 150.27465002999998
       }
     ]
   },
   "today": {
     "date": "2026-03-02",
     "totals": {
-      "inputTokens": 4931,
-      "outputTokens": 225574,
-      "cacheCreationTokens": 1117158,
-      "cacheReadTokens": 65809838,
-      "totalTokens": 67674117,
+      "inputTokens": 5015,
+      "outputTokens": 239680,
+      "cacheCreationTokens": 1143660,
+      "cacheReadTokens": 71278970,
+      "totalTokens": 73240379,
       "cost": {
-        "totalUSD": 140.12286762,
+        "totalUSD": 150.27465002999998,
         "byProvider": {
           "trae-pro": {
             "amount": 0,
             "currency": "USD"
           },
           "claude-code": {
-            "amount": 136.5349695,
+            "amount": 146.29478999999998,
             "currency": "USD"
           },
           "glm-coding": {
-            "amount": 25.8308,
+            "amount": 28.6527,
             "currency": "CNY"
           }
         }
       },
-      "requests": 730
+      "requests": 777
     },
     "byProvider": [
       {
@@ -388,15 +388,15 @@
       {
         "provider": "claude-code",
         "dataQuality": "exact",
-        "inputTokens": 1775,
-        "outputTokens": 224625,
-        "cacheCreationTokens": 1117158,
-        "cacheReadTokens": 65809838,
-        "totalTokens": 67153396,
-        "cost": 136.5349695,
-        "costUSD": 136.5349695,
+        "inputTokens": 1859,
+        "outputTokens": 238731,
+        "cacheCreationTokens": 1143660,
+        "cacheReadTokens": 71278970,
+        "totalTokens": 72663220,
+        "cost": 146.29478999999998,
+        "costUSD": 146.29478999999998,
         "currency": "USD",
-        "requests": 697
+        "requests": 741
       },
       {
         "provider": "glm-coding",
@@ -405,11 +405,11 @@
         "outputTokens": 0,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 516616,
-        "cost": 25.8308,
-        "costUSD": 3.5878981199999997,
+        "totalTokens": 573054,
+        "cost": 28.6527,
+        "costUSD": 3.9798600299999998,
         "currency": "CNY",
-        "requests": 31
+        "requests": 34
       }
     ],
     "byMachine": [
@@ -420,16 +420,16 @@
       },
       {
         "machine": "j-studio",
-        "totalTokens": 67670012,
-        "requests": 728
+        "totalTokens": 73236274,
+        "requests": 775
       }
     ],
     "byModel": [
       {
         "model": "claude-opus-4-6",
         "provider": "claude-code",
-        "totalTokens": 67153396,
-        "requests": 697
+        "totalTokens": 72663220,
+        "requests": 741
       }
     ]
   }

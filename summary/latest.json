@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-03-02T00:33:37.260Z",
+  "lastUpdated": "2026-03-02T01:33:12.412Z",
   "last7Days": {
     "dateRange": {
       "start": "2026-02-24",
       "end": "2026-03-02"
     },
     "totals": {
-      "inputTokens": 56386,
-      "outputTokens": 512580,
+      "inputTokens": 59302,
+      "outputTokens": 512891,
       "cacheCreationTokens": 5377401,
       "cacheReadTokens": 144788204,
-      "totalTokens": 151205076,
+      "totalTokens": 151208303,
       "cost": {
         "totalUSD": 287.66192482499997,
         "byProvider": {
@@ -28,7 +28,7 @@
           }
         }
       },
-      "requests": 2185
+      "requests": 2186
     },
     "byProvider": [
       {
@@ -47,15 +47,15 @@
       {
         "provider": "trae-pro",
         "dataQuality": "estimated",
-        "inputTokens": 22314,
-        "outputTokens": 1913,
+        "inputTokens": 25230,
+        "outputTokens": 2224,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 24227,
+        "totalTokens": 27454,
         "cost": 0,
         "costUSD": 0,
         "currency": "USD",
-        "requests": 23
+        "requests": 24
       },
       {
         "provider": "glm-coding",
@@ -79,8 +79,8 @@
       },
       {
         "machine": "gc172",
-        "totalTokens": 1702968,
-        "requests": 64
+        "totalTokens": 1706195,
+        "requests": 65
       },
       {
         "machine": "j-x",
@@ -116,7 +116,7 @@
       },
       {
         "date": "2026-03-02",
-        "totalTokens": 408281,
+        "totalTokens": 411508,
         "cost": 2.835511545
       }
     ]
@@ -127,11 +127,11 @@
       "end": "2026-03-02"
     },
     "totals": {
-      "inputTokens": 1074114,
-      "outputTokens": 2004086,
+      "inputTokens": 1077030,
+      "outputTokens": 2004397,
       "cacheCreationTokens": 34036553,
       "cacheReadTokens": 944164567,
-      "totalTokens": 1146178248,
+      "totalTokens": 1146181475,
       "cost": {
         "totalUSD": 2940.0443512700003,
         "byProvider": {
@@ -153,7 +153,7 @@
           }
         }
       },
-      "requests": 14843
+      "requests": 14844
     },
     "byProvider": [
       {
@@ -172,15 +172,15 @@
       {
         "provider": "trae-pro",
         "dataQuality": "estimated",
-        "inputTokens": 169399,
-        "outputTokens": 12977,
+        "inputTokens": 172315,
+        "outputTokens": 13288,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 182376,
+        "totalTokens": 185603,
         "cost": 0,
         "costUSD": 0,
         "currency": "USD",
-        "requests": 113
+        "requests": 114
       },
       {
         "provider": "glm-coding",
@@ -222,8 +222,8 @@
       },
       {
         "machine": "gc172",
-        "totalTokens": 1702968,
-        "requests": 64
+        "totalTokens": 1706195,
+        "requests": 65
       }
     ],
     "dailyTrend": [
@@ -339,7 +339,7 @@
       },
       {
         "date": "2026-03-02",
-        "totalTokens": 408281,
+        "totalTokens": 411508,
         "cost": 2.835511545
       }
     ]
@@ -347,23 +347,40 @@
   "today": {
     "date": "2026-03-02",
     "totals": {
-      "inputTokens": 0,
-      "outputTokens": 0,
+      "inputTokens": 2916,
+      "outputTokens": 311,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 0,
-      "totalTokens": 408281,
+      "totalTokens": 411508,
       "cost": {
         "totalUSD": 2.835511545,
         "byProvider": {
+          "trae-pro": {
+            "amount": 0,
+            "currency": "USD"
+          },
           "glm-coding": {
             "amount": 20.414050000000003,
             "currency": "CNY"
           }
         }
       },
-      "requests": 25
+      "requests": 26
     },
     "byProvider": [
+      {
+        "provider": "trae-pro",
+        "dataQuality": "estimated",
+        "inputTokens": 2916,
+        "outputTokens": 311,
+        "cacheCreationTokens": 0,
+        "cacheReadTokens": 0,
+        "totalTokens": 3227,
+        "cost": 0,
+        "costUSD": 0,
+        "currency": "USD",
+        "requests": 1
+      },
       {
         "provider": "glm-coding",
         "dataQuality": "partial",
@@ -379,6 +396,11 @@
       }
     ],
     "byMachine": [
+      {
+        "machine": "gc172",
+        "totalTokens": 3227,
+        "requests": 1
+      },
       {
         "machine": "j-studio",
         "totalTokens": 408281,

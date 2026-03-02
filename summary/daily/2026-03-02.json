@@ -1,23 +1,40 @@
 {
   "date": "2026-03-02",
   "totals": {
-    "inputTokens": 0,
-    "outputTokens": 0,
+    "inputTokens": 2916,
+    "outputTokens": 311,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 408281,
+    "totalTokens": 411508,
     "cost": {
       "totalUSD": 2.835511545,
       "byProvider": {
+        "trae-pro": {
+          "amount": 0,
+          "currency": "USD"
+        },
         "glm-coding": {
           "amount": 20.414050000000003,
           "currency": "CNY"
         }
       }
     },
-    "requests": 25
+    "requests": 26
   },
   "byProvider": [
+    {
+      "provider": "trae-pro",
+      "dataQuality": "estimated",
+      "inputTokens": 2916,
+      "outputTokens": 311,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 3227,
+      "cost": 0,
+      "costUSD": 0,
+      "currency": "USD",
+      "requests": 1
+    },
     {
       "provider": "glm-coding",
       "dataQuality": "partial",
@@ -33,6 +50,11 @@
     }
   ],
   "byMachine": [
+    {
+      "machine": "gc172",
+      "totalTokens": 3227,
+      "requests": 1
+    },
     {
       "machine": "j-studio",
       "totalTokens": 408281,

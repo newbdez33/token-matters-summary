@@ -2,14 +2,14 @@
   "provider": "trae-pro",
   "dateRange": {
     "start": "2026-02-13",
-    "end": "2026-02-25"
+    "end": "2026-03-02"
   },
   "totals": {
-    "inputTokens": 169399,
-    "outputTokens": 12977,
+    "inputTokens": 172315,
+    "outputTokens": 13288,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 182376,
+    "totalTokens": 185603,
     "cost": {
       "totalUSD": 0,
       "byProvider": {
@@ -19,7 +19,7 @@
         }
       }
     },
-    "requests": 113
+    "requests": 114
   },
   "dailyTrend": [
     {
@@ -30,6 +30,11 @@
     {
       "date": "2026-02-25",
       "totalTokens": 24227,
+      "cost": 0
+    },
+    {
+      "date": "2026-03-02",
+      "totalTokens": 3227,
       "cost": 0
     }
   ]

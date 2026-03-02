@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-03",
+  "totals": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheCreationTokens": 0,
+    "cacheReadTokens": 0,
+    "totalTokens": 59251,
+    "cost": {
+      "totalUSD": 0.411498195,
+      "byProvider": {
+        "glm-coding": {
+          "amount": 2.9625500000000002,
+          "currency": "CNY"
+        }
+      }
+    },
+    "requests": 3
+  },
+  "byProvider": [
+    {
+      "provider": "glm-coding",
+      "dataQuality": "partial",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 59251,
+      "cost": 2.9625500000000002,
+      "costUSD": 0.411498195,
+      "currency": "CNY",
+      "requests": 3
+    }
+  ],
+  "byMachine": [
+    {
+      "machine": "j-studio",
+      "totalTokens": 59251,
+      "requests": 3
+    }
+  ],
+  "byModel": []
+}

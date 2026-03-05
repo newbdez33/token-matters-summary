@@ -5,21 +5,21 @@
     "end": "2026-03-05"
   },
   "totals": {
-    "inputTokens": 236604,
-    "outputTokens": 2773480,
-    "cacheCreationTokens": 37937065,
-    "cacheReadTokens": 1066410535,
-    "totalTokens": 1107357684,
+    "inputTokens": 236618,
+    "outputTokens": 2777625,
+    "cacheCreationTokens": 37943440,
+    "cacheReadTokens": 1066995185,
+    "totalTokens": 1107952868,
     "cost": {
-      "totalUSD": 2106.5057421499996,
+      "totalUSD": 2107.8133334000004,
       "byProvider": {
         "claude-code": {
-          "amount": 2106.5057421499996,
+          "amount": 2107.8133334000004,
           "currency": "USD"
         }
       }
     },
-    "requests": 13677
+    "requests": 13685
   },
   "dailyTrend": [
     {
@@ -149,8 +149,8 @@
     },
     {
       "date": "2026-03-05",
-      "totalTokens": 26280696,
-      "cost": 70.1145507
+      "totalTokens": 26875880,
+      "cost": 71.42214195
     }
   ]
 }

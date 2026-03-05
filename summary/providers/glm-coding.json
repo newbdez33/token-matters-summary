@@ -2,24 +2,24 @@
   "provider": "glm-coding",
   "dateRange": {
     "start": "2026-02-14",
-    "end": "2026-03-05"
+    "end": "2026-03-06"
   },
   "totals": {
     "inputTokens": 0,
     "outputTokens": 0,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 166066425,
+    "totalTokens": 166100519,
     "cost": {
-      "totalUSD": 8303.321249999997,
+      "totalUSD": 8305.025949999997,
       "byProvider": {
         "glm-coding": {
-          "amount": 8303.321249999997,
+          "amount": 8305.025949999997,
           "currency": "CNY"
         }
       }
     },
-    "requests": 2593
+    "requests": 2595
   },
   "dailyTrend": [
     {
@@ -76,6 +76,11 @@
       "date": "2026-03-05",
       "totalTokens": 224400,
       "cost": 11.22
+    },
+    {
+      "date": "2026-03-06",
+      "totalTokens": 34094,
+      "cost": 1.7047
     }
   ]
 }

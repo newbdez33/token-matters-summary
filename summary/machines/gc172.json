@@ -2,19 +2,19 @@
   "machine": "gc172",
   "dateRange": {
     "start": "2026-02-25",
-    "end": "2026-03-02"
+    "end": "2026-03-05"
   },
   "totals": {
     "inputTokens": 0,
     "outputTokens": 0,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 1707073,
+    "totalTokens": 1855182,
     "cost": {
-      "totalUSD": 195.48358496,
+      "totalUSD": 216.01637205499998,
       "byProvider": {
         "claude-code": {
-          "amount": 191.1029012,
+          "amount": 210.75422195,
           "currency": "USD"
         },
         "trae-pro": {
@@ -22,12 +22,12 @@
           "currency": "USD"
         },
         "glm-coding": {
-          "amount": 31.538400000000003,
+          "amount": 37.88445,
           "currency": "CNY"
         }
       }
     },
-    "requests": 66
+    "requests": 73
   },
   "dailyTrend": [
     {
@@ -39,6 +39,11 @@
       "date": "2026-03-02",
       "totalTokens": 4105,
       "cost": 165.94423471
+    },
+    {
+      "date": "2026-03-05",
+      "totalTokens": 148109,
+      "cost": 20.532787095000003
     }
   ]
 }

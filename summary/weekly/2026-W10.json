@@ -2,16 +2,16 @@
   "week": "2026-W10",
   "dateRange": {
     "start": "2026-03-02",
-    "end": "2026-03-06"
+    "end": "2026-03-07"
   },
   "totals": {
     "inputTokens": 59295,
     "outputTokens": 1460772,
     "cacheCreationTokens": 7618269,
     "cacheReadTokens": 191031894,
-    "totalTokens": 201937630,
+    "totalTokens": 201972369,
     "cost": {
-      "totalUSD": 543.82900359,
+      "totalUSD": 544.070265945,
       "byProvider": {
         "trae-pro": {
           "amount": 0,
@@ -22,12 +22,12 @@
           "currency": "USD"
         },
         "glm-coding": {
-          "amount": 88.37,
+          "amount": 90.10695,
           "currency": "CNY"
         }
       }
     },
-    "requests": 2397
+    "requests": 2399
   },
   "byProvider": [
     {
@@ -63,11 +63,11 @@
       "outputTokens": 0,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 0,
-      "totalTokens": 1767400,
-      "cost": 88.37,
-      "costUSD": 12.274593,
+      "totalTokens": 1802139,
+      "cost": 90.10695,
+      "costUSD": 12.515855355,
       "currency": "CNY",
-      "requests": 103
+      "requests": 105
     }
   ],
   "byMachine": [
@@ -78,8 +78,8 @@
     },
     {
       "machine": "j-studio",
-      "totalTokens": 193283833,
-      "requests": 2259
+      "totalTokens": 193318572,
+      "requests": 2261
     },
     {
       "machine": "j-x",
@@ -112,6 +112,11 @@
       "date": "2026-03-06",
       "totalTokens": 45188210,
       "cost": 152.56254579
+    },
+    {
+      "date": "2026-03-07",
+      "totalTokens": 34739,
+      "cost": 0.24126235499999998
     }
   ]
 }

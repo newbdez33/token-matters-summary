@@ -1,16 +1,16 @@
 {
   "date": "2026-03-08",
   "totals": {
-    "inputTokens": 6668,
-    "outputTokens": 277724,
-    "cacheCreationTokens": 1569241,
-    "cacheReadTokens": 51687718,
-    "totalTokens": 53832065,
+    "inputTokens": 23277,
+    "outputTokens": 1233394,
+    "cacheCreationTokens": 5709425,
+    "cacheReadTokens": 197945692,
+    "totalTokens": 205202502,
     "cost": {
-      "totalUSD": 116.83346963,
+      "totalUSD": 474.33596508999995,
       "byProvider": {
         "claude-code": {
-          "amount": 114.8144609,
+          "amount": 472.31695635999995,
           "currency": "USD"
         },
         "glm-coding": {
@@ -19,21 +19,21 @@
         }
       }
     },
-    "requests": 608
+    "requests": 2135
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 6668,
-      "outputTokens": 277724,
-      "cacheCreationTokens": 1569241,
-      "cacheReadTokens": 51687718,
-      "totalTokens": 53541351,
-      "cost": 114.8144609,
-      "costUSD": 114.8144609,
+      "inputTokens": 23277,
+      "outputTokens": 1233394,
+      "cacheCreationTokens": 5709425,
+      "cacheReadTokens": 197945692,
+      "totalTokens": 204911788,
+      "cost": 472.31695635999995,
+      "costUSD": 472.31695635999995,
       "currency": "USD",
-      "requests": 590
+      "requests": 2117
     },
     {
       "provider": "glm-coding",
@@ -54,20 +54,25 @@
       "machine": "j-studio",
       "totalTokens": 53832065,
       "requests": 608
+    },
+    {
+      "machine": "j-x",
+      "totalTokens": 151370437,
+      "requests": 1527
     }
   ],
   "byModel": [
     {
       "model": "claude-haiku-4-5-20251001",
       "provider": "claude-code",
-      "totalTokens": 4125936,
-      "requests": 62
+      "totalTokens": 8447044,
+      "requests": 131
     },
     {
       "model": "claude-opus-4-6",
       "provider": "claude-code",
-      "totalTokens": 49415415,
-      "requests": 528
+      "totalTokens": 196464744,
+      "requests": 1986
     }
   ]
 }

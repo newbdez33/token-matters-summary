@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T18:30:34.542Z",
+  "lastUpdated": "2026-03-10T22:30:32.083Z",
   "last7Days": {
     "dateRange": {
       "start": "2026-03-05",
@@ -10,21 +10,21 @@
       "outputTokens": 4191072,
       "cacheCreationTokens": 18392081,
       "cacheReadTokens": 627506063,
-      "totalTokens": 651795146,
+      "totalTokens": 651840059,
       "cost": {
-        "totalUSD": 1566.87977069,
+        "totalUSD": 1567.191691475,
         "byProvider": {
           "claude-code": {
             "amount": 1556.1730808900002,
             "currency": "USD"
           },
           "glm-coding": {
-            "amount": 77.08200000000001,
+            "amount": 79.32765,
             "currency": "CNY"
           }
         }
       },
-      "requests": 6921
+      "requests": 6924
     },
     "byProvider": [
       {
@@ -47,11 +47,11 @@
         "outputTokens": 0,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 1541640,
-        "cost": 77.08200000000001,
-        "costUSD": 10.7066898,
+        "totalTokens": 1586553,
+        "cost": 79.32765,
+        "costUSD": 11.018610585,
         "currency": "CNY",
-        "requests": 94
+        "requests": 97
       }
     ],
     "byMachine": [
@@ -62,8 +62,8 @@
       },
       {
         "machine": "j-studio",
-        "totalTokens": 222376446,
-        "requests": 2576
+        "totalTokens": 222421359,
+        "requests": 2579
       },
       {
         "machine": "j-x",
@@ -104,8 +104,8 @@
       },
       {
         "date": "2026-03-11",
-        "totalTokens": 34678,
-        "cost": 0.24083870999999998
+        "totalTokens": 79591,
+        "cost": 0.552759495
       }
     ]
   },
@@ -119,9 +119,9 @@
       "outputTokens": 6593322,
       "cacheCreationTokens": 48438369,
       "cacheReadTokens": 1530715267,
-      "totalTokens": 1754352724,
+      "totalTokens": 1754397637,
       "cost": {
-        "totalUSD": 4628.986418225,
+        "totalUSD": 4629.29833901,
         "byProvider": {
           "claude-code": {
             "amount": 3466.506864799999,
@@ -132,7 +132,7 @@
             "currency": "USD"
           },
           "glm-coding": {
-            "amount": 8369.183249999995,
+            "amount": 8371.428899999995,
             "currency": "CNY"
           },
           "opencode": {
@@ -141,7 +141,7 @@
           }
         }
       },
-      "requests": 21277
+      "requests": 21280
     },
     "byProvider": [
       {
@@ -177,11 +177,11 @@
         "outputTokens": 0,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 167383665,
-        "cost": 8369.183249999995,
-        "costUSD": 1162.4795534250002,
+        "totalTokens": 167428578,
+        "cost": 8371.428899999995,
+        "costUSD": 1162.7914742100002,
         "currency": "CNY",
-        "requests": 2674
+        "requests": 2677
       },
       {
         "provider": "opencode",
@@ -205,8 +205,8 @@
       },
       {
         "machine": "j-studio",
-        "totalTokens": 1032056437,
-        "requests": 13269
+        "totalTokens": 1032101350,
+        "requests": 13272
       },
       {
         "machine": "gc172",
@@ -347,8 +347,8 @@
       },
       {
         "date": "2026-03-11",
-        "totalTokens": 34678,
-        "cost": 0.24083870999999998
+        "totalTokens": 79591,
+        "cost": 0.552759495
       }
     ]
   },
@@ -359,17 +359,17 @@
       "outputTokens": 0,
       "cacheCreationTokens": 0,
       "cacheReadTokens": 0,
-      "totalTokens": 34678,
+      "totalTokens": 79591,
       "cost": {
-        "totalUSD": 0.24083870999999998,
+        "totalUSD": 0.552759495,
         "byProvider": {
           "glm-coding": {
-            "amount": 1.7339,
+            "amount": 3.9795499999999997,
             "currency": "CNY"
           }
         }
       },
-      "requests": 2
+      "requests": 5
     },
     "byProvider": [
       {
@@ -379,18 +379,18 @@
         "outputTokens": 0,
         "cacheCreationTokens": 0,
         "cacheReadTokens": 0,
-        "totalTokens": 34678,
-        "cost": 1.7339,
-        "costUSD": 0.24083870999999998,
+        "totalTokens": 79591,
+        "cost": 3.9795499999999997,
+        "costUSD": 0.552759495,
         "currency": "CNY",
-        "requests": 2
+        "requests": 5
       }
     ],
     "byMachine": [
       {
         "machine": "j-studio",
-        "totalTokens": 34678,
-        "requests": 2
+        "totalTokens": 79591,
+        "requests": 5
       }
     ],
     "byModel": []

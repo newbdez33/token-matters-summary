@@ -9,6 +9,10 @@
     "cost": {
       "totalUSD": 0.58093536,
       "byProvider": {
+        "claude-code": {
+          "amount": 0,
+          "currency": "USD"
+        },
         "glm-coding": {
           "amount": 4.1824,
           "currency": "CNY"
@@ -18,6 +22,19 @@
     "requests": 5
   },
   "byProvider": [
+    {
+      "provider": "claude-code",
+      "dataQuality": "exact",
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 0,
+      "cost": 0,
+      "costUSD": 0,
+      "currency": "USD",
+      "requests": 0
+    },
     {
       "provider": "glm-coding",
       "dataQuality": "partial",

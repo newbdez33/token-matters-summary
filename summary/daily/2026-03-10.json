@@ -1,16 +1,16 @@
 {
   "date": "2026-03-10",
   "totals": {
-    "inputTokens": 281,
-    "outputTokens": 49700,
-    "cacheCreationTokens": 598077,
-    "cacheReadTokens": 7595937,
-    "totalTokens": 8389972,
+    "inputTokens": 288,
+    "outputTokens": 49853,
+    "cacheCreationTokens": 608565,
+    "cacheReadTokens": 7619682,
+    "totalTokens": 8424365,
     "cost": {
-      "totalUSD": 27.353374515,
+      "totalUSD": 27.597222015,
       "byProvider": {
         "claude-code": {
-          "amount": 26.33956425,
+          "amount": 26.58341175,
           "currency": "USD"
         },
         "glm-coding": {
@@ -19,21 +19,21 @@
         }
       }
     },
-    "requests": 98
+    "requests": 101
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 281,
-      "outputTokens": 49700,
-      "cacheCreationTokens": 598077,
-      "cacheReadTokens": 7595937,
-      "totalTokens": 8243995,
-      "cost": 26.33956425,
-      "costUSD": 26.33956425,
+      "inputTokens": 288,
+      "outputTokens": 49853,
+      "cacheCreationTokens": 608565,
+      "cacheReadTokens": 7619682,
+      "totalTokens": 8278388,
+      "cost": 26.58341175,
+      "costUSD": 26.58341175,
       "currency": "USD",
-      "requests": 89
+      "requests": 92
     },
     {
       "provider": "glm-coding",
@@ -51,6 +51,11 @@
   ],
   "byMachine": [
     {
+      "machine": "gc172",
+      "totalTokens": 34393,
+      "requests": 3
+    },
+    {
       "machine": "j-studio",
       "totalTokens": 8389972,
       "requests": 98
@@ -60,8 +65,8 @@
     {
       "model": "claude-opus-4-6",
       "provider": "claude-code",
-      "totalTokens": 8243995,
-      "requests": 89
+      "totalTokens": 8278388,
+      "requests": 92
     }
   ]
 }

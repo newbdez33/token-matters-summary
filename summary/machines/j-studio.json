@@ -9,12 +9,12 @@
     "outputTokens": 0,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 1032101350,
+    "totalTokens": 1037156957,
     "cost": {
-      "totalUSD": 4407.997117570001,
+      "totalUSD": 4420.25987392,
       "byProvider": {
         "claude-code": {
-          "amount": 3245.20564336,
+          "amount": 3257.14629061,
           "currency": "USD"
         },
         "trae-pro": {
@@ -22,7 +22,7 @@
           "currency": "USD"
         },
         "glm-coding": {
-          "amount": 8371.428899999995,
+          "amount": 8373.747899999995,
           "currency": "CNY"
         },
         "opencode": {
@@ -31,7 +31,7 @@
         }
       }
     },
-    "requests": 13272
+    "requests": 13315
   },
   "dailyTrend": [
     {
@@ -156,8 +156,8 @@
     },
     {
       "date": "2026-03-11",
-      "totalTokens": 79591,
-      "cost": 0.552759495
+      "totalTokens": 5135198,
+      "cost": 12.815515845
     }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "date": "2026-03-12",
+  "totals": {
+    "inputTokens": 6,
+    "outputTokens": 1677,
+    "cacheCreationTokens": 95754,
+    "cacheReadTokens": 273532,
+    "totalTokens": 370969,
+    "cost": {
+      "totalUSD": 2.3315505,
+      "byProvider": {
+        "claude-code": {
+          "amount": 2.3315505,
+          "currency": "USD"
+        }
+      }
+    },
+    "requests": 4
+  },
+  "byProvider": [
+    {
+      "provider": "claude-code",
+      "dataQuality": "exact",
+      "inputTokens": 6,
+      "outputTokens": 1677,
+      "cacheCreationTokens": 95754,
+      "cacheReadTokens": 273532,
+      "totalTokens": 370969,
+      "cost": 2.3315505,
+      "costUSD": 2.3315505,
+      "currency": "USD",
+      "requests": 4
+    }
+  ],
+  "byMachine": [
+    {
+      "machine": "j-studio",
+      "totalTokens": 370969,
+      "requests": 4
+    }
+  ],
+  "byModel": [
+    {
+      "model": "claude-opus-4-6",
+      "provider": "claude-code",
+      "totalTokens": 370969,
+      "requests": 4
+    }
+  ]
+}

@@ -9,12 +9,12 @@
     "outputTokens": 0,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 924824855,
+    "totalTokens": 1007690448,
     "cost": {
-      "totalUSD": 3848.861861235,
+      "totalUSD": 3851.6566132350003,
       "byProvider": {
         "claude-code": {
-          "amount": 2696.2236922800003,
+          "amount": 2699.0184442800005,
           "currency": "USD"
         },
         "glm-coding": {
@@ -28,10 +28,14 @@
         "opencode": {
           "amount": 0,
           "currency": "USD"
+        },
+        "codex": {
+          "amount": 0,
+          "currency": "USD"
         }
       }
     },
-    "requests": 10366
+    "requests": 11020
   },
   "dailyTrend": [
     {
@@ -151,8 +155,8 @@
     },
     {
       "date": "2026-03-15",
-      "totalTokens": 33208704,
-      "cost": 68.99320078000001
+      "totalTokens": 116074297,
+      "cost": 71.78795278
     }
   ]
 }

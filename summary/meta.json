@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-03-15T15:30:43.730Z",
+  "lastUpdated": "2026-03-15T15:33:14.410Z",
   "dateRange": {
     "start": "2026-02-01",
     "end": "2026-03-15"
   },
   "providers": [
     "claude-code",
+    "codex",
     "glm-coding",
     "opencode",
     "trae-pro"
@@ -21,7 +22,8 @@
     "claude-opus-4-6",
     "claude-sonnet-4-5-20250929",
     "claude-sonnet-4-6",
-    "glm-5"
+    "glm-5",
+    "gpt-5.4"
   ],
   "dailyFiles": [
     "2026-02-01",

@@ -1,0 +1,31 @@
+{
+  "provider": "codex",
+  "dateRange": {
+    "start": "2026-03-15",
+    "end": "2026-03-15"
+  },
+  "totals": {
+    "inputTokens": 81823936,
+    "outputTokens": 525025,
+    "cacheCreationTokens": 0,
+    "cacheReadTokens": 74581120,
+    "totalTokens": 82348961,
+    "cost": {
+      "totalUSD": 0,
+      "byProvider": {
+        "codex": {
+          "amount": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    "requests": 646
+  },
+  "dailyTrend": [
+    {
+      "date": "2026-03-15",
+      "totalTokens": 82348961,
+      "cost": 0
+    }
+  ]
+}

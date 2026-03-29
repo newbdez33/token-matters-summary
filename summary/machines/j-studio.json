@@ -11,10 +11,10 @@
     "cacheReadTokens": 0,
     "totalTokens": 3695350858,
     "cost": {
-      "totalUSD": 9479.356766435001,
+      "totalUSD": 9504.741299175,
       "byProvider": {
         "claude-code": {
-          "amount": 8310.336828709998,
+          "amount": 8335.72136145,
           "currency": "USD"
         },
         "trae-pro": {
@@ -26,6 +26,10 @@
           "currency": "CNY"
         },
         "opencode": {
+          "amount": 0,
+          "currency": "USD"
+        },
+        "codex": {
           "amount": 0,
           "currency": "USD"
         }
@@ -232,7 +236,7 @@
     {
       "date": "2026-03-29",
       "totalTokens": 32336819,
-      "cost": 69.381084
+      "cost": 94.76561674
     }
   ]
 }

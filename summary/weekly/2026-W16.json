@@ -5,35 +5,52 @@
     "end": "2026-04-15"
   },
   "totals": {
-    "inputTokens": 12951,
-    "outputTokens": 786931,
-    "cacheCreationTokens": 10648871,
-    "cacheReadTokens": 576682048,
-    "totalTokens": 588130801,
+    "inputTokens": 1989422,
+    "outputTokens": 823002,
+    "cacheCreationTokens": 10728203,
+    "cacheReadTokens": 578767808,
+    "totalTokens": 590481491,
     "cost": {
-      "totalUSD": 1115.8309459,
+      "totalUSD": 1118.3150299,
       "byProvider": {
         "claude-code": {
-          "amount": 1115.8309459,
+          "amount": 1118.3150299,
+          "currency": "USD"
+        },
+        "codex": {
+          "amount": 0,
           "currency": "USD"
         }
       }
     },
-    "requests": 1496
+    "requests": 1535
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 12951,
-      "outputTokens": 786931,
-      "cacheCreationTokens": 10648871,
-      "cacheReadTokens": 576682048,
-      "totalTokens": 588130801,
-      "cost": 1115.8309459,
-      "costUSD": 1115.8309459,
+      "inputTokens": 12975,
+      "outputTokens": 795038,
+      "cacheCreationTokens": 10728203,
+      "cacheReadTokens": 576940864,
+      "totalTokens": 588477080,
+      "cost": 1118.3150299,
+      "costUSD": 1118.3150299,
       "currency": "USD",
-      "requests": 1496
+      "requests": 1505
+    },
+    {
+      "provider": "codex",
+      "dataQuality": "exact",
+      "inputTokens": 1976447,
+      "outputTokens": 27964,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1826944,
+      "totalTokens": 2004411,
+      "cost": 0,
+      "costUSD": 0,
+      "currency": "USD",
+      "requests": 30
     }
   ],
   "byMachine": [
@@ -44,8 +61,8 @@
     },
     {
       "machine": "j-x",
-      "totalTokens": 22748089,
-      "requests": 322
+      "totalTokens": 25098779,
+      "requests": 361
     }
   ],
   "dailyTrend": [
@@ -61,8 +78,8 @@
     },
     {
       "date": "2026-04-15",
-      "totalTokens": 189461201,
-      "cost": 359.21240292
+      "totalTokens": 191811891,
+      "cost": 361.69648692
     }
   ]
 }

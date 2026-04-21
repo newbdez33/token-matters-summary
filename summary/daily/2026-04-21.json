@@ -1,56 +1,56 @@
 {
   "date": "2026-04-21",
   "totals": {
-    "inputTokens": 3186,
-    "outputTokens": 93499,
-    "cacheCreationTokens": 3460788,
-    "cacheReadTokens": 96275995,
-    "totalTokens": 99833468,
+    "inputTokens": 3349,
+    "outputTokens": 121042,
+    "cacheCreationTokens": 4107478,
+    "cacheReadTokens": 147041378,
+    "totalTokens": 151273247,
     "cost": {
-      "totalUSD": 198.46749182000005,
+      "totalUSD": 287.85554462,
       "byProvider": {
         "claude-code": {
-          "amount": 198.46749182000005,
+          "amount": 287.85554462,
           "currency": "USD"
         }
       }
     },
-    "requests": 290
+    "requests": 366
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 3186,
-      "outputTokens": 93499,
-      "cacheCreationTokens": 3460788,
-      "cacheReadTokens": 96275995,
-      "totalTokens": 99833468,
-      "cost": 198.46749182000005,
-      "costUSD": 198.46749182000005,
+      "inputTokens": 3349,
+      "outputTokens": 121042,
+      "cacheCreationTokens": 4107478,
+      "cacheReadTokens": 147041378,
+      "totalTokens": 151273247,
+      "cost": 287.85554462,
+      "costUSD": 287.85554462,
       "currency": "USD",
-      "requests": 290
+      "requests": 366
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 99833468,
-      "requests": 290
+      "totalTokens": 151273247,
+      "requests": 366
     }
   ],
   "byModel": [
     {
-      "model": "claude-sonnet-4-6",
-      "provider": "claude-code",
-      "totalTokens": 3106187,
-      "requests": 78
-    },
-    {
       "model": "claude-opus-4-6",
       "provider": "claude-code",
-      "totalTokens": 93004159,
-      "requests": 150
+      "totalTokens": 144332289,
+      "requests": 217
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "provider": "claude-code",
+      "totalTokens": 3217836,
+      "requests": 87
     },
     {
       "model": "claude-haiku-4-5-20251001",

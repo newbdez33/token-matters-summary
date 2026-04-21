@@ -2,19 +2,19 @@
   "machine": "j-studio",
   "dateRange": {
     "start": "2026-02-13",
-    "end": "2026-04-21"
+    "end": "2026-04-22"
   },
   "totals": {
     "inputTokens": 0,
     "outputTokens": 0,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 6694932705,
+    "totalTokens": 6731893264,
     "cost": {
-      "totalUSD": 15504.136738864996,
+      "totalUSD": 15589.659771364995,
       "byProvider": {
         "claude-code": {
-          "amount": 14335.116801139995,
+          "amount": 14420.639833639994,
           "currency": "USD"
         },
         "trae-pro": {
@@ -35,7 +35,7 @@
         }
       }
     },
-    "requests": 31079
+    "requests": 31139
   },
   "dailyTrend": [
     {
@@ -342,6 +342,11 @@
       "date": "2026-04-21",
       "totalTokens": 324312425,
       "cost": 600.07700782
+    },
+    {
+      "date": "2026-04-22",
+      "totalTokens": 36960559,
+      "cost": 85.5230325
     }
   ]
 }

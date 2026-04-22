@@ -1,35 +1,52 @@
 {
   "date": "2026-04-22",
   "totals": {
-    "inputTokens": 13676,
-    "outputTokens": 458975,
-    "cacheCreationTokens": 6348888,
-    "cacheReadTokens": 431793570,
-    "totalTokens": 438615109,
+    "inputTokens": 7450827,
+    "outputTokens": 523521,
+    "cacheCreationTokens": 6404986,
+    "cacheReadTokens": 439102449,
+    "totalTokens": 446854711,
     "cost": {
       "totalUSD": 464.6774382,
       "byProvider": {
         "claude-code": {
           "amount": 464.6774382,
           "currency": "USD"
+        },
+        "codex": {
+          "amount": 0,
+          "currency": "USD"
         }
       }
     },
-    "requests": 1065
+    "requests": 1170
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 13676,
-      "outputTokens": 458975,
-      "cacheCreationTokens": 6348888,
-      "cacheReadTokens": 431793570,
-      "totalTokens": 438615109,
+      "inputTokens": 13721,
+      "outputTokens": 463302,
+      "cacheCreationTokens": 6404986,
+      "cacheReadTokens": 432475377,
+      "totalTokens": 439357386,
       "cost": 464.6774382,
       "costUSD": 464.6774382,
       "currency": "USD",
-      "requests": 1065
+      "requests": 1080
+    },
+    {
+      "provider": "codex",
+      "dataQuality": "exact",
+      "inputTokens": 7437106,
+      "outputTokens": 60219,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 6627072,
+      "totalTokens": 7497325,
+      "cost": 0,
+      "costUSD": 0,
+      "currency": "USD",
+      "requests": 90
     }
   ],
   "byMachine": [
@@ -37,14 +54,19 @@
       "machine": "j-studio",
       "totalTokens": 438615109,
       "requests": 1065
+    },
+    {
+      "machine": "j-x",
+      "totalTokens": 8239602,
+      "requests": 105
     }
   ],
   "byModel": [
     {
       "model": "claude-opus-4-7",
       "provider": "claude-code",
-      "totalTokens": 173803608,
-      "requests": 224
+      "totalTokens": 174545885,
+      "requests": 239
     },
     {
       "model": "claude-opus-4-6",
@@ -57,6 +79,12 @@
       "provider": "claude-code",
       "totalTokens": 1514733,
       "requests": 97
+    },
+    {
+      "model": "gpt-5.4",
+      "provider": "codex",
+      "totalTokens": 7497325,
+      "requests": 90
     }
   ]
 }

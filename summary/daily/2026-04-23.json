@@ -1,62 +1,62 @@
 {
   "date": "2026-04-23",
   "totals": {
-    "inputTokens": 742,
-    "outputTokens": 80956,
-    "cacheCreationTokens": 3826456,
-    "cacheReadTokens": 128291293,
-    "totalTokens": 132199447,
+    "inputTokens": 5573,
+    "outputTokens": 88737,
+    "cacheCreationTokens": 5023040,
+    "cacheReadTokens": 138145133,
+    "totalTokens": 143262483,
     "cost": {
-      "totalUSD": 235.11966885,
+      "totalUSD": 261.7253316,
       "byProvider": {
         "claude-code": {
-          "amount": 235.11966885,
+          "amount": 261.7253316,
           "currency": "USD"
         }
       }
     },
-    "requests": 255
+    "requests": 283
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 742,
-      "outputTokens": 80956,
-      "cacheCreationTokens": 3826456,
-      "cacheReadTokens": 128291293,
-      "totalTokens": 132199447,
-      "cost": 235.11966885,
-      "costUSD": 235.11966885,
+      "inputTokens": 5573,
+      "outputTokens": 88737,
+      "cacheCreationTokens": 5023040,
+      "cacheReadTokens": 138145133,
+      "totalTokens": 143262483,
+      "cost": 261.7253316,
+      "costUSD": 261.7253316,
       "currency": "USD",
-      "requests": 255
+      "requests": 283
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 132199447,
-      "requests": 255
+      "totalTokens": 143262483,
+      "requests": 283
     }
   ],
   "byModel": [
     {
       "model": "claude-opus-4-7",
       "provider": "claude-code",
-      "totalTokens": 10272606,
-      "requests": 11
+      "totalTokens": 10817761,
+      "requests": 12
     },
     {
       "model": "claude-sonnet-4-6",
       "provider": "claude-code",
-      "totalTokens": 468332,
-      "requests": 25
+      "totalTokens": 664473,
+      "requests": 35
     },
     {
       "model": "claude-opus-4-6",
       "provider": "claude-code",
-      "totalTokens": 121458509,
-      "requests": 219
+      "totalTokens": 131780249,
+      "requests": 236
     }
   ]
 }

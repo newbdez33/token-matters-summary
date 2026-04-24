@@ -1,56 +1,62 @@
 {
   "date": "2026-04-24",
   "totals": {
-    "inputTokens": 406,
-    "outputTokens": 298462,
-    "cacheCreationTokens": 1346490,
-    "cacheReadTokens": 61775843,
-    "totalTokens": 63421201,
+    "inputTokens": 12399,
+    "outputTokens": 451030,
+    "cacheCreationTokens": 1663782,
+    "cacheReadTokens": 156316358,
+    "totalTokens": 158443569,
     "cost": {
-      "totalUSD": 40.019465249999996,
+      "totalUSD": 99.9939267,
       "byProvider": {
         "claude-code": {
-          "amount": 40.019465249999996,
+          "amount": 99.9939267,
           "currency": "USD"
         }
       }
     },
-    "requests": 201
+    "requests": 447
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 406,
-      "outputTokens": 298462,
-      "cacheCreationTokens": 1346490,
-      "cacheReadTokens": 61775843,
-      "totalTokens": 63421201,
-      "cost": 40.019465249999996,
-      "costUSD": 40.019465249999996,
+      "inputTokens": 12399,
+      "outputTokens": 451030,
+      "cacheCreationTokens": 1663782,
+      "cacheReadTokens": 156316358,
+      "totalTokens": 158443569,
+      "cost": 99.9939267,
+      "costUSD": 99.9939267,
       "currency": "USD",
-      "requests": 201
+      "requests": 447
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 63421201,
-      "requests": 201
+      "totalTokens": 158443569,
+      "requests": 447
     }
   ],
   "byModel": [
     {
       "model": "claude-opus-4-7",
       "provider": "claude-code",
-      "totalTokens": 44235792,
-      "requests": 170
+      "totalTokens": 99162383,
+      "requests": 290
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "provider": "claude-code",
+      "totalTokens": 2247534,
+      "requests": 67
     },
     {
       "model": "claude-opus-4-6",
       "provider": "claude-code",
-      "totalTokens": 19185409,
-      "requests": 31
+      "totalTokens": 57033652,
+      "requests": 90
     }
   ]
 }

@@ -2,14 +2,14 @@
   "provider": "opencode",
   "dateRange": {
     "start": "2026-02-15",
-    "end": "2026-02-15"
+    "end": "2026-04-25"
   },
   "totals": {
-    "inputTokens": 683027,
-    "outputTokens": 16563,
+    "inputTokens": 700419,
+    "outputTokens": 17533,
     "cacheCreationTokens": 0,
-    "cacheReadTokens": 2134592,
-    "totalTokens": 2834182,
+    "cacheReadTokens": 2206272,
+    "totalTokens": 2924224,
     "cost": {
       "totalUSD": 0,
       "byProvider": {
@@ -19,12 +19,17 @@
         }
       }
     },
-    "requests": 60
+    "requests": 67
   },
   "dailyTrend": [
     {
       "date": "2026-02-15",
       "totalTokens": 2834182,
+      "cost": 0
+    },
+    {
+      "date": "2026-04-25",
+      "totalTokens": 90042,
       "cost": 0
     }
   ]

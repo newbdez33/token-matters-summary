@@ -1,11 +1,11 @@
 {
   "date": "2026-04-28",
   "totals": {
-    "inputTokens": 1427,
-    "outputTokens": 523587,
-    "cacheCreationTokens": 2679009,
-    "cacheReadTokens": 290980782,
-    "totalTokens": 294184805,
+    "inputTokens": 4826,
+    "outputTokens": 624776,
+    "cacheCreationTokens": 3244694,
+    "cacheReadTokens": 331688303,
+    "totalTokens": 335562599,
     "cost": {
       "totalUSD": 0,
       "byProvider": {
@@ -15,36 +15,36 @@
         }
       }
     },
-    "requests": 736
+    "requests": 890
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 1427,
-      "outputTokens": 523587,
-      "cacheCreationTokens": 2679009,
-      "cacheReadTokens": 290980782,
-      "totalTokens": 294184805,
+      "inputTokens": 4826,
+      "outputTokens": 624776,
+      "cacheCreationTokens": 3244694,
+      "cacheReadTokens": 331688303,
+      "totalTokens": 335562599,
       "cost": 0,
       "costUSD": 0,
       "currency": "USD",
-      "requests": 736
+      "requests": 890
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 294184805,
-      "requests": 736
+      "totalTokens": 335562599,
+      "requests": 890
     }
   ],
   "byModel": [
     {
       "model": "claude-opus-4-7",
       "provider": "claude-code",
-      "totalTokens": 294184805,
-      "requests": 736
+      "totalTokens": 335562599,
+      "requests": 890
     }
   ]
 }

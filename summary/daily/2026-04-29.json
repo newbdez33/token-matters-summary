@@ -1,50 +1,78 @@
 {
   "date": "2026-04-29",
   "totals": {
-    "inputTokens": 2820,
-    "outputTokens": 1031188,
-    "cacheCreationTokens": 3495976,
-    "cacheReadTokens": 1001693192,
-    "totalTokens": 1006223176,
+    "inputTokens": 2238246,
+    "outputTokens": 1220574,
+    "cacheCreationTokens": 5915545,
+    "cacheReadTokens": 1073862093,
+    "totalTokens": 1081333226,
     "cost": {
       "totalUSD": 0,
       "byProvider": {
         "claude-code": {
           "amount": 0,
           "currency": "USD"
+        },
+        "codex": {
+          "amount": 0,
+          "currency": "USD"
         }
       }
     },
-    "requests": 1885
+    "requests": 2291
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 2820,
-      "outputTokens": 1031188,
-      "cacheCreationTokens": 3495976,
-      "cacheReadTokens": 1001693192,
-      "totalTokens": 1006223176,
+      "inputTokens": 3453,
+      "outputTokens": 1204900,
+      "cacheCreationTokens": 5915545,
+      "cacheReadTokens": 1071958861,
+      "totalTokens": 1079082759,
       "cost": 0,
       "costUSD": 0,
       "currency": "USD",
-      "requests": 1885
+      "requests": 2268
+    },
+    {
+      "provider": "codex",
+      "dataQuality": "exact",
+      "inputTokens": 2234793,
+      "outputTokens": 15674,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1903232,
+      "totalTokens": 2250467,
+      "cost": 0,
+      "costUSD": 0,
+      "currency": "USD",
+      "requests": 23
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 1006223176,
-      "requests": 1885
+      "totalTokens": 1031802829,
+      "requests": 2060
+    },
+    {
+      "machine": "j-x",
+      "totalTokens": 49530397,
+      "requests": 231
     }
   ],
   "byModel": [
     {
       "model": "claude-opus-4-7",
       "provider": "claude-code",
-      "totalTokens": 1006223176,
-      "requests": 1885
+      "totalTokens": 1079082759,
+      "requests": 2268
+    },
+    {
+      "model": "gpt-5.5",
+      "provider": "codex",
+      "totalTokens": 2250467,
+      "requests": 23
     }
   ]
 }

@@ -5,11 +5,11 @@
     "end": "2026-04-29"
   },
   "totals": {
-    "inputTokens": 11386931,
-    "outputTokens": 11621339,
-    "cacheCreationTokens": 119144728,
-    "cacheReadTokens": 8749358777,
-    "totalTokens": 8881405023,
+    "inputTokens": 13622357,
+    "outputTokens": 11810725,
+    "cacheCreationTokens": 121564297,
+    "cacheReadTokens": 8821527678,
+    "totalTokens": 8956515073,
     "cost": {
       "totalUSD": 6613.74892504,
       "byProvider": {
@@ -27,34 +27,34 @@
         }
       }
     },
-    "requests": 22673
+    "requests": 23079
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 168514,
-      "outputTokens": 11518850,
-      "cacheCreationTokens": 119144728,
-      "cacheReadTokens": 8739180345,
-      "totalTokens": 8870012437,
+      "inputTokens": 169147,
+      "outputTokens": 11692562,
+      "cacheCreationTokens": 121564297,
+      "cacheReadTokens": 8809446014,
+      "totalTokens": 8942872020,
       "cost": 6613.74892504,
       "costUSD": 6613.74892504,
       "currency": "USD",
-      "requests": 22522
+      "requests": 22905
     },
     {
       "provider": "codex",
       "dataQuality": "exact",
-      "inputTokens": 11201025,
-      "outputTokens": 101519,
+      "inputTokens": 13435818,
+      "outputTokens": 117193,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 10106752,
-      "totalTokens": 11302544,
+      "cacheReadTokens": 12009984,
+      "totalTokens": 13553011,
       "cost": 0,
       "costUSD": 0,
       "currency": "USD",
-      "requests": 144
+      "requests": 167
     },
     {
       "provider": "opencode",
@@ -73,13 +73,13 @@
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 8263835397,
-      "requests": 19907
+      "totalTokens": 8289415050,
+      "requests": 20082
     },
     {
       "machine": "j-x",
-      "totalTokens": 617569626,
-      "requests": 2766
+      "totalTokens": 667100023,
+      "requests": 2997
     }
   ],
   "dailyTrend": [
@@ -220,7 +220,7 @@
     },
     {
       "date": "2026-04-29",
-      "totalTokens": 1006223176,
+      "totalTokens": 1081333226,
       "cost": 0
     }
   ]

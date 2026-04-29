@@ -2,14 +2,14 @@
   "provider": "codex",
   "dateRange": {
     "start": "2026-03-15",
-    "end": "2026-04-25"
+    "end": "2026-04-29"
   },
   "totals": {
-    "inputTokens": 100303677,
-    "outputTokens": 686566,
+    "inputTokens": 102538470,
+    "outputTokens": 702240,
     "cacheCreationTokens": 0,
-    "cacheReadTokens": 90872832,
-    "totalTokens": 100990243,
+    "cacheReadTokens": 92776064,
+    "totalTokens": 103240710,
     "cost": {
       "totalUSD": 0,
       "byProvider": {
@@ -19,7 +19,7 @@
         }
       }
     },
-    "requests": 851
+    "requests": 874
   },
   "dailyTrend": [
     {
@@ -45,6 +45,11 @@
     {
       "date": "2026-04-25",
       "totalTokens": 1800808,
+      "cost": 0
+    },
+    {
+      "date": "2026-04-29",
+      "totalTokens": 2250467,
       "cost": 0
     }
   ]

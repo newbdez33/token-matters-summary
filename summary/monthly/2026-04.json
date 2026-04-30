@@ -5,16 +5,16 @@
     "end": "2026-04-30"
   },
   "totals": {
-    "inputTokens": 13625993,
-    "outputTokens": 12464916,
-    "cacheCreationTokens": 124269198,
-    "cacheReadTokens": 9238541206,
-    "totalTokens": 9376891329,
+    "inputTokens": 24026928,
+    "outputTokens": 12636676,
+    "cacheCreationTokens": 124696012,
+    "cacheReadTokens": 9274258670,
+    "totalTokens": 9413922798,
     "cost": {
-      "totalUSD": 6625.735109740001,
+      "totalUSD": 6637.19056624,
       "byProvider": {
         "claude-code": {
-          "amount": 6625.735109740001,
+          "amount": 6637.19056624,
           "currency": "USD"
         },
         "codex": {
@@ -27,34 +27,34 @@
         }
       }
     },
-    "requests": 24220
+    "requests": 24610
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 172783,
-      "outputTokens": 12346753,
-      "cacheCreationTokens": 124269198,
-      "cacheReadTokens": 9226459542,
-      "totalTokens": 9363248276,
-      "cost": 6625.735109740001,
-      "costUSD": 6625.735109740001,
+      "inputTokens": 173520,
+      "outputTokens": 12482960,
+      "cacheCreationTokens": 124696012,
+      "cacheReadTokens": 9252491502,
+      "totalTokens": 9389843994,
+      "cost": 6637.19056624,
+      "costUSD": 6637.19056624,
       "currency": "USD",
-      "requests": 24046
+      "requests": 24336
     },
     {
       "provider": "codex",
       "dataQuality": "exact",
-      "inputTokens": 13435818,
-      "outputTokens": 117193,
+      "inputTokens": 23836016,
+      "outputTokens": 152746,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 12009984,
-      "totalTokens": 13553011,
+      "cacheReadTokens": 21695488,
+      "totalTokens": 23988762,
       "cost": 0,
       "costUSD": 0,
       "currency": "USD",
-      "requests": 167
+      "requests": 267
     },
     {
       "provider": "opencode",
@@ -78,8 +78,8 @@
     },
     {
       "machine": "j-x",
-      "totalTokens": 667100023,
-      "requests": 2997
+      "totalTokens": 704131492,
+      "requests": 3387
     }
   ],
   "dailyTrend": [
@@ -225,8 +225,8 @@
     },
     {
       "date": "2026-04-30",
-      "totalTokens": 420376256,
-      "cost": 11.986184699999999
+      "totalTokens": 457407725,
+      "cost": 23.4416412
     }
   ]
 }

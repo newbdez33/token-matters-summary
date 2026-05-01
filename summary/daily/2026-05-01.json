@@ -1,56 +1,56 @@
 {
   "date": "2026-05-01",
   "totals": {
-    "inputTokens": 3714,
-    "outputTokens": 567884,
-    "cacheCreationTokens": 8062415,
-    "cacheReadTokens": 456467517,
-    "totalTokens": 465101530,
+    "inputTokens": 3977,
+    "outputTokens": 607643,
+    "cacheCreationTokens": 8191339,
+    "cacheReadTokens": 459149940,
+    "totalTokens": 467952899,
     "cost": {
-      "totalUSD": 26.468796899999997,
+      "totalUSD": 27.8144085,
       "byProvider": {
         "claude-code": {
-          "amount": 26.468796899999997,
+          "amount": 27.8144085,
           "currency": "USD"
         }
       }
     },
-    "requests": 1093
+    "requests": 1140
   },
   "byProvider": [
     {
       "provider": "claude-code",
       "dataQuality": "exact",
-      "inputTokens": 3714,
-      "outputTokens": 567884,
-      "cacheCreationTokens": 8062415,
-      "cacheReadTokens": 456467517,
-      "totalTokens": 465101530,
-      "cost": 26.468796899999997,
-      "costUSD": 26.468796899999997,
+      "inputTokens": 3977,
+      "outputTokens": 607643,
+      "cacheCreationTokens": 8191339,
+      "cacheReadTokens": 459149940,
+      "totalTokens": 467952899,
+      "cost": 27.8144085,
+      "costUSD": 27.8144085,
       "currency": "USD",
-      "requests": 1093
+      "requests": 1140
     }
   ],
   "byMachine": [
     {
       "machine": "j-studio",
-      "totalTokens": 465101530,
-      "requests": 1093
+      "totalTokens": 467952899,
+      "requests": 1140
     }
   ],
   "byModel": [
     {
-      "model": "claude-opus-4-7",
-      "provider": "claude-code",
-      "totalTokens": 447730043,
-      "requests": 957
-    },
-    {
       "model": "claude-sonnet-4-6",
       "provider": "claude-code",
-      "totalTokens": 8047772,
-      "requests": 117
+      "totalTokens": 10052358,
+      "requests": 145
+    },
+    {
+      "model": "claude-opus-4-7",
+      "provider": "claude-code",
+      "totalTokens": 448576826,
+      "requests": 976
     },
     {
       "model": "claude-opus-4-6",

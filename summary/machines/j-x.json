@@ -2,14 +2,14 @@
   "machine": "j-x",
   "dateRange": {
     "start": "2026-02-01",
-    "end": "2026-05-02"
+    "end": "2026-05-03"
   },
   "totals": {
     "inputTokens": 0,
     "outputTokens": 0,
     "cacheCreationTokens": 0,
     "cacheReadTokens": 0,
-    "totalTokens": 2034031581,
+    "totalTokens": 2225222768,
     "cost": {
       "totalUSD": 10423.530488125001,
       "byProvider": {
@@ -35,7 +35,7 @@
         }
       }
     },
-    "requests": 16646
+    "requests": 17514
   },
   "dailyTrend": [
     {
@@ -292,6 +292,11 @@
       "date": "2026-05-02",
       "totalTokens": 36097325,
       "cost": 0.7578154500000001
+    },
+    {
+      "date": "2026-05-03",
+      "totalTokens": 191191187,
+      "cost": 0
     }
   ]
 }

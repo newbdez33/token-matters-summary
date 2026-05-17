@@ -1,0 +1,58 @@
+{
+  "week": "2026-W19",
+  "dateRange": {
+    "start": "2026-05-07",
+    "end": "2026-05-08"
+  },
+  "totals": {
+    "inputTokens": 514,
+    "outputTokens": 190724,
+    "cacheCreationTokens": 1317856,
+    "cacheReadTokens": 71027589,
+    "totalTokens": 72536683,
+    "cost": {
+      "totalUSD": 3.6350872499999998,
+      "byProvider": {
+        "claude-code": {
+          "amount": 3.6350872499999998,
+          "currency": "USD"
+        }
+      }
+    },
+    "requests": 328
+  },
+  "byProvider": [
+    {
+      "provider": "claude-code",
+      "dataQuality": "exact",
+      "inputTokens": 514,
+      "outputTokens": 190724,
+      "cacheCreationTokens": 1317856,
+      "cacheReadTokens": 71027589,
+      "totalTokens": 72536683,
+      "cost": 3.6350872499999998,
+      "costUSD": 3.6350872499999998,
+      "currency": "USD",
+      "requests": 328
+    }
+  ],
+  "byMachine": [
+    {
+      "machine": "gc172",
+      "totalTokens": 72536683,
+      "requests": 328
+    }
+  ],
+  "dailyTrend": [
+    {
+      "date": "2026-05-07",
+      "totalTokens": 13067894,
+      "cost": 3.6350872499999998
+    },
+    {
+      "date": "2026-05-08",
+      "totalTokens": 59468789,
+      "cost": 0
+    }
+  ]
+}

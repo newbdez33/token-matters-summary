@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-05-19T13:14:28.862Z",
+  "lastUpdated": "2026-05-19T18:42:30.527Z",
   "last7Days": {
     "dateRange": {
-      "start": "2026-05-13",
-      "end": "2026-05-19"
+      "start": "2026-05-14",
+      "end": "2026-05-20"
     },
     "totals": {
       "inputTokens": 0,
@@ -23,20 +23,20 @@
   },
   "last30Days": {
     "dateRange": {
-      "start": "2026-04-20",
-      "end": "2026-05-19"
+      "start": "2026-04-21",
+      "end": "2026-05-20"
     },
     "totals": {
-      "inputTokens": 21964102,
-      "outputTokens": 10937880,
-      "cacheCreationTokens": 84121291,
-      "cacheReadTokens": 7963755995,
-      "totalTokens": 8060910724,
+      "inputTokens": 21963774,
+      "outputTokens": 10864293,
+      "cacheCreationTokens": 81493047,
+      "cacheReadTokens": 7838945597,
+      "totalTokens": 7933398167,
       "cost": {
-        "totalUSD": 1788.60787507,
+        "totalUSD": 1546.5887580699998,
         "byProvider": {
           "claude-code": {
-            "amount": 1788.60787507,
+            "amount": 1546.5887580699998,
             "currency": "USD"
           },
           "codex": {
@@ -49,21 +49,21 @@
           }
         }
       },
-      "requests": 19363
+      "requests": 19158
     },
     "byProvider": [
       {
         "provider": "claude-code",
         "dataQuality": "exact",
-        "inputTokens": 87141,
-        "outputTokens": 10812128,
-        "cacheCreationTokens": 84121291,
-        "cacheReadTokens": 7943815771,
-        "totalTokens": 8038836331,
-        "cost": 1788.60787507,
-        "costUSD": 1788.60787507,
+        "inputTokens": 86813,
+        "outputTokens": 10738541,
+        "cacheCreationTokens": 81493047,
+        "cacheReadTokens": 7819005373,
+        "totalTokens": 7911323774,
+        "cost": 1546.5887580699998,
+        "costUSD": 1546.5887580699998,
         "currency": "USD",
-        "requests": 19119
+        "requests": 18914
       },
       {
         "provider": "codex",
@@ -95,8 +95,8 @@
     "byMachine": [
       {
         "machine": "j-studio",
-        "totalTokens": 7158102349,
-        "requests": 15767
+        "totalTokens": 7030589792,
+        "requests": 15562
       },
       {
         "machine": "j-x",
@@ -110,11 +110,6 @@
       }
     ],
     "dailyTrend": [
-      {
-        "date": "2026-04-20",
-        "totalTokens": 127512557,
-        "cost": 242.019117
-      },
       {
         "date": "2026-04-21",
         "totalTokens": 333424572,

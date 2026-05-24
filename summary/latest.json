@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-05-24T12:29:29.981Z",
+  "lastUpdated": "2026-05-24T18:27:11.161Z",
   "last7Days": {
     "dateRange": {
-      "start": "2026-05-18",
-      "end": "2026-05-24"
+      "start": "2026-05-19",
+      "end": "2026-05-25"
     },
     "totals": {
       "inputTokens": 0,
@@ -23,15 +23,15 @@
   },
   "last30Days": {
     "dateRange": {
-      "start": "2026-04-25",
-      "end": "2026-05-24"
+      "start": "2026-04-26",
+      "end": "2026-05-25"
     },
     "totals": {
-      "inputTokens": 14484778,
-      "outputTokens": 8630718,
-      "cacheCreationTokens": 53095123,
-      "cacheReadTokens": 6309408925,
-      "totalTokens": 6372378072,
+      "inputTokens": 12677344,
+      "outputTokens": 7332701,
+      "cacheCreationTokens": 47554457,
+      "cacheReadTokens": 5191869365,
+      "totalTokens": 5247845131,
       "cost": {
         "totalUSD": 98.06852803,
         "byProvider": {
@@ -42,66 +42,49 @@
           "codex": {
             "amount": 0,
             "currency": "USD"
-          },
-          "opencode": {
-            "amount": 0,
-            "currency": "USD"
           }
         }
       },
-      "requests": 15162
+      "requests": 12911
     },
     "byProvider": [
       {
         "provider": "claude-code",
         "dataQuality": "exact",
-        "inputTokens": 44923,
-        "outputTokens": 8565185,
-        "cacheCreationTokens": 53095123,
-        "cacheReadTokens": 6296095773,
-        "totalTokens": 6357801004,
+        "inputTokens": 42353,
+        "outputTokens": 7281474,
+        "cacheCreationTokens": 47554457,
+        "cacheReadTokens": 5180280629,
+        "totalTokens": 5235158913,
         "cost": 98.06852803,
         "costUSD": 98.06852803,
         "currency": "USD",
-        "requests": 15008
+        "requests": 12788
       },
       {
         "provider": "codex",
         "dataQuality": "exact",
-        "inputTokens": 14422463,
-        "outputTokens": 64563,
+        "inputTokens": 12634991,
+        "outputTokens": 51227,
         "cacheCreationTokens": 0,
-        "cacheReadTokens": 13241472,
-        "totalTokens": 14487026,
+        "cacheReadTokens": 11588736,
+        "totalTokens": 12686218,
         "cost": 0,
         "costUSD": 0,
         "currency": "USD",
-        "requests": 147
-      },
-      {
-        "provider": "opencode",
-        "dataQuality": "exact",
-        "inputTokens": 17392,
-        "outputTokens": 970,
-        "cacheCreationTokens": 0,
-        "cacheReadTokens": 71680,
-        "totalTokens": 90042,
-        "cost": 0,
-        "costUSD": 0,
-        "currency": "USD",
-        "requests": 7
+        "requests": 123
       }
     ],
     "byMachine": [
       {
         "machine": "j-studio",
-        "totalTokens": 5579004703,
-        "requests": 12160
+        "totalTokens": 4478324555,
+        "requests": 9992
       },
       {
         "machine": "j-x",
-        "totalTokens": 720836686,
-        "requests": 2674
+        "totalTokens": 696983893,
+        "requests": 2591
       },
       {
         "machine": "gc172",
@@ -110,11 +93,6 @@
       }
     ],
     "dailyTrend": [
-      {
-        "date": "2026-04-25",
-        "totalTokens": 1124532941,
-        "cost": 0
-      },
       {
         "date": "2026-04-26",
         "totalTokens": 1377641750,

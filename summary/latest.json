@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-06T12:33:34.476Z",
+  "lastUpdated": "2026-06-06T18:32:13.143Z",
   "last7Days": {
     "dateRange": {
-      "start": "2026-05-31",
-      "end": "2026-06-06"
+      "start": "2026-06-01",
+      "end": "2026-06-07"
     },
     "totals": {
       "inputTokens": 0,
@@ -23,55 +23,24 @@
   },
   "last30Days": {
     "dateRange": {
-      "start": "2026-05-08",
-      "end": "2026-06-06"
+      "start": "2026-05-09",
+      "end": "2026-06-07"
     },
     "totals": {
-      "inputTokens": 338,
-      "outputTokens": 127611,
-      "cacheCreationTokens": 1041593,
-      "cacheReadTokens": 58299247,
-      "totalTokens": 59468789,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalTokens": 0,
       "cost": {
         "totalUSD": 0,
-        "byProvider": {
-          "claude-code": {
-            "amount": 0,
-            "currency": "USD"
-          }
-        }
+        "byProvider": {}
       },
-      "requests": 198
+      "requests": 0
     },
-    "byProvider": [
-      {
-        "provider": "claude-code",
-        "dataQuality": "exact",
-        "inputTokens": 338,
-        "outputTokens": 127611,
-        "cacheCreationTokens": 1041593,
-        "cacheReadTokens": 58299247,
-        "totalTokens": 59468789,
-        "cost": 0,
-        "costUSD": 0,
-        "currency": "USD",
-        "requests": 198
-      }
-    ],
-    "byMachine": [
-      {
-        "machine": "gc172",
-        "totalTokens": 59468789,
-        "requests": 198
-      }
-    ],
-    "dailyTrend": [
-      {
-        "date": "2026-05-08",
-        "totalTokens": 59468789,
-        "cost": 0
-      }
-    ]
+    "byProvider": [],
+    "byMachine": [],
+    "dailyTrend": []
   },
   "today": {
     "date": "2026-05-08",
